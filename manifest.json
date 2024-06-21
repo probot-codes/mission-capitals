@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Mission Capitals",
+    "version": "1.0",
+    "description": "Opens the JetPunk World Capitals quiz at random times.",
+    "permissions": [
+      "alarms",
+      "tabs"
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
