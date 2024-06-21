@@ -23,3 +23,7 @@ chrome.alarms.onAlarm.addListener((alarm) => {
 chrome.runtime.onInstalled.addListener(() => {
   createRandomAlarm();
 });
+
+chrome.runtime.onStartup.addListener(() => {
+  createRandomAlarm();
+});
